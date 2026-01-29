@@ -1,6 +1,5 @@
-streamlit
-pandas
+flask
 numpy
-matplotlib
+pandas
 scikit-learn
-xgboost
+joblib
