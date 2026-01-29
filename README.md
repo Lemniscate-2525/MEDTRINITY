@@ -50,6 +50,26 @@ User Inputs → Real-Time Prediction (%)
 * **Deployment:** Flask local server
 
 
+## 🚀 How to Run the Project
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Lemniscate-2525/MEDTRINITY.git
+cd MEDTRINITY
+
+python -m venv venv
+venv\Scripts\activate   # Windows
+# source venv/bin/activate   # Mac/Linux
+
+pip install -r requirements.txt
+
+python app.py
+
+http://127.0.0.1:5000/
+
+
+
+
 ## **👥 Contributors**
 
 * **Akshat** – Machine Learning models, training pipeline, integration
@@ -61,3 +81,4 @@ User Inputs → Real-Time Prediction (%)
 ## **⚠ Disclaimer**
 
 This project is for **educational purposes only** and is **not a medical diagnostic system**.
+
