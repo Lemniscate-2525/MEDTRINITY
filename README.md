@@ -1,17 +1,18 @@
-🩺 MedTrinity – Disease Prediction System (ML + Flask)
+# 🩺 MedTrinity – Disease Prediction System (ML + Flask)
 
-MedTrinity is a machine learning–powered disease prediction system that estimates the probability (in %) of disease using models trained on structured CSV medical datasets.
-It demonstrates a complete data → model → API → web interface pipeline.
+MedTrinity is a machine learning–powered disease prediction system that estimates the **probability (in %)** of disease using models trained on structured **CSV medical datasets**. It demonstrates a complete **data → model → API → web interface** pipeline.
 
-🔍 Project Overview
 
-This application allows users to input medical parameters through a web interface.
-The backend loads trained ML models and returns a risk percentage for disease likelihood.
+## **🔍 Project Overview**
 
-All 3 models were trained using CSV files, preprocessed in Python, and integrated into a Flask web application for real-time inference.
+This application allows users to input medical parameters through a web interface. The backend loads trained ML models and returns a **risk percentage** for disease likelihood.
 
-🧠 Machine Learning Pipeline
+All **3 models** were trained using **CSV files**, preprocessed in Python, and integrated into a **Flask web application** for real-time inference.
 
+
+## **🧠 Machine Learning Pipeline**
+
+```
 CSV Datasets
       ↓
 Data Cleaning & Validation
@@ -35,32 +36,28 @@ REST API Inference Endpoint
 Web UI (Frontend)
       ↓
 User Inputs → Real-Time Prediction (%)
+```
+
+---
+
+## **🛠 Tech Stack**
+
+* **Programming Language:** Python
+* **Machine Learning:** Scikit-learn
+* **Data Processing:** Pandas, NumPy
+* **Backend Framework:** Flask
+* **Data Format:** CSV files
+* **Deployment:** Flask local server
 
 
-🛠 Tech Stack
+## **👥 Contributors**
 
-Programming Language: Python
+* **Akshat** – Machine Learning models, training pipeline, integration
+* **Garv** – Frontend + Flask UI
+* **Manas** – Frontend + UI styling
 
-Machine Learning: Scikit-learn
+---
 
-Data Processing: Pandas, NumPy
+## **⚠ Disclaimer**
 
-Backend Framework: Flask
-
-Data Format: CSV files
-
-Deployment: Flask local server 
-
-
-👥 Contributors : 
-
-Akshat – Machine Learning models, training pipeline, integration
-
-Garv – Frontend + Flask UI
-
-Manas – Frontend + UI styling
-
-⚠ Disclaimer
-
-This project is for educational purposes only and not a medical diagnostic system.
-
+This project is for **educational purposes only** and is **not a medical diagnostic system**.
