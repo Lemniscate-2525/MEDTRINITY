@@ -38,8 +38,6 @@ Web UI (Frontend)
 User Inputs → Real-Time Prediction (%)
 ```
 
----
-
 ## **🛠 Tech Stack**
 
 * **Programming Language:** Python
@@ -50,24 +48,40 @@ User Inputs → Real-Time Prediction (%)
 * **Deployment:** Flask local server
 
 
-## 🚀 How to Run the Project
+## **🚀 How to Run the Project**
 
-### 1. Clone the Repository
+**1. Clone the Repository**
+
 ```bash
 git clone https://github.com/Lemniscate-2525/MEDTRINITY.git
 cd MEDTRINITY
+```
 
+**2. Create a Virtual Environment (Optional but Recommended)**
+
+```bash
 python -m venv venv
-venv\Scripts\activate   # Windows
-# source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+# source venv/bin/activate  # Mac/Linux
+```
 
+**3. Install Dependencies**
+
+```bash
 pip install -r requirements.txt
+```
 
+**4. Run the Flask App**
+
+```bash
 python app.py
+```
 
+**5. Open in Browser**
+
+```text
 http://127.0.0.1:5000/
-
-
+```
 
 
 ## **👥 Contributors**
@@ -81,4 +95,5 @@ http://127.0.0.1:5000/
 ## **⚠ Disclaimer**
 
 This project is for **educational purposes only** and is **not a medical diagnostic system**.
+
 
